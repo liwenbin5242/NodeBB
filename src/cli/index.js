@@ -23,7 +23,7 @@ try {
 
 		try {
 			fs.accessSync(path.join(paths.nodeModules, 'colors/package.json'), fs.constants.R_OK);
-
+r
 			require('colors');
 			console.log('OK'.green);
 		} catch (e) {
